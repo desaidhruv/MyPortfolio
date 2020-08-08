@@ -6,4 +6,4 @@ if("serviceWorker" in navigator){
         console.log("SW Failed");
         console.log(error);
     });
-  }
+}
