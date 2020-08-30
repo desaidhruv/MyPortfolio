@@ -73,7 +73,7 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link5")
         element.classList.add("card-link5");
         document.getElementById("card-link5").innerHTML = `
-            <a href="https://eager-clarke-dac55a.netlify.app/" class="btn">View</a>
+            <a href="http://bit.ly/organic-website" class="btn">View</a>
         `
 
     })
