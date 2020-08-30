@@ -517,7 +517,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -568,8 +568,8 @@ section {
   top: 0;
   bottom: 0;
   transition: all ease-in-out 0.3s;
-  /* z-index: 2; */
-  /* opacity: 0; */
+  z-index: 2;
+  opacity: 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -612,7 +612,7 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
-}
+} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
