@@ -12,7 +12,17 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link")
         element.classList.add("card-link");
         document.getElementById("card-link").innerHTML = `
-            <a href="${data[2].html_url}" class="btn">View</a>
+            <a href="${data[2].html_url}" class="btn" style="border-radius: 0px;">View</a><br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #3572A5;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[2].language}</p>
+            </div>
         `
 
         document.getElementById("title1").innerHTML = `<svg  aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 12 16" width="14" className="repo-svg">
@@ -25,7 +35,17 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link1")
         element.classList.add("card-link1");
         document.getElementById("card-link1").innerHTML = `
-            <a href="${data[0].html_url}" class="btn">View</a>
+            <a href="${data[0].html_url}" class="btn" style="border-radius: 0px;">View</a><br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #6a40fd;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[0].language}</p>
+            </div>
         `
         document.getElementById("title2").innerHTML = `<svg  aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 12 16" width="14" className="repo-svg">
         <path
@@ -37,7 +57,18 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link2")
         element.classList.add("card-link2");
         document.getElementById("card-link2").innerHTML = `
-            <a href="${data[3].html_url}" class="btn">View</a>
+            <a href="${data[3].html_url}" class="btn" style="border-radius: 0px;">View</a>
+            <br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #3572A5;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[3].language}</p>
+            </div>
         `
         document.getElementById("title3").innerHTML = `<svg  aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 12 16" width="14" className="repo-svg">
         <path
@@ -49,7 +80,17 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link3")
         element.classList.add("card-link3");
         document.getElementById("card-link3").innerHTML = `
-            <a href="${data[12].html_url}" class="btn">View</a>
+            <a href="${data[12].html_url}" class="btn" style="border-radius: 0px;">View</a><br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #3572A5;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[12].language}</p>
+            </div>
         `
         document.getElementById("title4").innerHTML = `<svg  aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 12 16" width="14" className="repo-svg">
         <path
@@ -61,7 +102,17 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link4")
         element.classList.add("card-link4");
         document.getElementById("card-link4").innerHTML = `
-            <a href="https://fervent-tesla-815a46.netlify.app/" class="btn">View</a>
+            <a href="https://fervent-tesla-815a46.netlify.app/" class="btn" style="border-radius: 0px;">View</a><br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #e34c26;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[16].language}</p>
+            </div>
         `
         document.getElementById("title5").innerHTML = `<svg  aria-hidden="true" className="octicon" height="20" role="img" viewBox="0 0 12 16" width="14" className="repo-svg">
         <path
@@ -73,7 +124,17 @@ fetch("https://api.github.com/users/desaidhruv/repos")
         var element = document.getElementById("card-link5")
         element.classList.add("card-link5");
         document.getElementById("card-link5").innerHTML = `
-            <a href="http://bit.ly/organic-website" class="btn">View</a>
+            <a href="http://bit.ly/organic-website" class="btn" style="border-radius: 0px;">View</a><br>
+            <div class="container" style="display: flex;padding-top:10px;margin-left:-20px;
+            ">
+              <div class="circlearancione" style="background-color: #f1e05a;
+              border-color: white;
+              border-radius: 50%;
+              border-width: 5px;
+              height: 25px;
+              width: 25px;"></div>
+              <p style="margin:0;padding-left:10px;">${data[14].language}</p>
+            </div>
         `
 
     })
