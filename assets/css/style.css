@@ -624,7 +624,7 @@ section {
 }
 .btn {
   border: 1px solid #7d3cff;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 .btn:hover {
   background-color: #7d3cff;
